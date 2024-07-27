@@ -1,0 +1,19 @@
+[project]
+name = "ecs"
+version = "0.1.0"
+description = "Default template for PDM package"
+authors = [
+    {name = "Leechael Yim", email = "yanleech@gmail.com"},
+]
+dependencies = [
+    "numpy>=2.0.1",
+    "rx>=3.2.0",
+    "keyboard>=0.13.5",
+]
+requires-python = "==3.10.*"
+readme = "README.md"
+license = {text = "MIT"}
+
+
+[tool.pdm]
+distribution = false
